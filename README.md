@@ -3,6 +3,10 @@
 针对小爱音箱的 hack / 研究清单，重点关注 AI 助手、智能家居集成、音乐播放与控制等方向。
 
 > 说明：这类项目往往依赖不同的固件版本、Home Assistant、Python 环境和设备协议，实际可用性需要结合你的设备型号和网络环境进行验证。
+>
+> 说明：以下标注方式：
+> - `【原始】` = 你原本已存在的条目
+> - `【AI补充】` = 我基于研究新增的条目/分类
 
 ## 目录
 
@@ -14,54 +18,54 @@
 
 ## AI / 语音助手
 
-- [yihong0618/xiaogpt](https://github.com/yihong0618/xiaogpt)  
+- 【原始】[yihong0618/xiaogpt](https://github.com/yihong0618/xiaogpt)  
   让小爱同学接入 GPT / 语音助手，常用于把小爱音箱改造成 AI 聊天助手。
 
-- [yihong0618/MiService](https://github.com/yihong0618/MiService)  
+- 【AI补充】[yihong0618/MiService](https://github.com/yihong0618/MiService)  
   小爱服务相关的接口封装/控制层，适合做设备接入、API 研究和二次开发。
 
-- [idootop/mi-gpt](https://github.com/idootop/mi-gpt)  
+- 【AI补充】[idootop/mi-gpt](https://github.com/idootop/mi-gpt)  
   基于小米/小爱生态的 GPT 接入方案，适合尝试 AI 能力扩展。
 
-- [longbai/xiaobot](https://github.com/longbai/xiaobot)  
+- 【AI补充】[longbai/xiaobot](https://github.com/longbai/xiaobot)  
   小爱音箱机器人/智能对话相关项目，偏实用脚本与自动化集成。
 
 ## Home Assistant / 智能家居
 
-- [al-one/hass-xiaomi-miot](https://github.com/al-one/hass-xiaomi-miot)  
+- 【原始】[al-one/hass-xiaomi-miot](https://github.com/al-one/hass-xiaomi-miot)  
   Home Assistant 上最常见的米家设备集成，支持设备控制、状态同步和自动化。
 
-- [shaonianzhentan/ha_cloud_music](https://github.com/shaonianzhentan/ha_cloud_music)  
+- 【AI补充】[shaonianzhentan/ha_cloud_music](https://github.com/shaonianzhentan/ha_cloud_music)  
   在 Home Assistant 场景下接入云音乐/播放服务，适合音箱娱乐扩展。
 
-- [hanxi/xiaomusic](https://github.com/hanxi/xiaomusic)  
+- 【AI补充】[hanxi/xiaomusic](https://github.com/hanxi/xiaomusic)  
   与小米音箱/云音乐相关的集成方案，适合研究音频播放与设备联动。
 
 ## 音乐与播放
 
-- [shaonianzhentan/ha_cloud_music](https://github.com/shaonianzhentan/ha_cloud_music)  
+- 【原始】[shaonianzhentan/ha_cloud_music](https://github.com/shaonianzhentan/ha_cloud_music)  
   用于把云音乐与 Home Assistant / 智能音箱场景打通的方案。
 
-- [hanxi/xiaomusic](https://github.com/hanxi/xiaomusic)  
+- 【原始】[hanxi/xiaomusic](https://github.com/hanxi/xiaomusic)  
   关注本地/云端音乐推送与音箱播放联动。
 
 ## 通用工具与接口
 
-- [yihong0618/MiService](https://github.com/yihong0618/MiService)  
+- 【原始】[yihong0618/MiService](https://github.com/yihong0618/MiService)  
   适用于理解小爱音箱/米家设备的服务接口、命令与控制流。
 
-- [al-one/hass-xiaomi-miot](https://github.com/al-one/hass-xiaomi-miot)  
+- 【AI补充】[al-one/hass-xiaomi-miot](https://github.com/al-one/hass-xiaomi-miot)  
   适合做设备接入、状态管理和自动化规则。
 
 ## 推荐阅读
 
-- [xiaogpt](https://github.com/yihong0618/xiaogpt)  
+- 【原始】[xiaogpt](https://github.com/yihong0618/xiaogpt)  
   入门首选：最经典、最容易快速上手的“AI 改造”项目。
 
-- [hass-xiaomi-miot](https://github.com/al-one/hass-xiaomi-miot)  
+- 【原始】[hass-xiaomi-miot](https://github.com/al-one/hass-xiaomi-miot)  
   如果你想把小爱音箱/米家设备接入家庭自动化，优先考虑它。
 
-- [MiService](https://github.com/yihong0618/MiService)  
+- 【AI补充】[MiService](https://github.com/yihong0618/MiService)  
   适合研究设备协议、服务接口与小爱生态通信方式。
 
 ## 关注点
@@ -88,3 +92,4 @@
 - 语音唤醒/离线识别方案
 - 智能音箱自动化脚本
 
+> 注：本仓库中的条目已按来源进行标注，便于区分“原始条目”和“AI 追加条目”。
